@@ -26,12 +26,12 @@ Works on Windows, macOS, and Linux
 
 ## 🔹 Installation & Setup
 
-## 1️⃣ Clone the Repository (or Save the Script)
+1️⃣ Clone the Repository (or Save the Script)
 
 git clone https://github.com/yourusername/video-thumbnail-generator.git
 cd video-thumbnail-generator
 
-## 2️⃣ Set Up Input & Output Folders
+2️⃣ Set Up Input & Output Folders
 Place all MP4 videos in the input_folder.
 The script will save thumbnails in the output_folder.
 Modify the paths in the script if needed:
@@ -39,25 +39,27 @@ Modify the paths in the script if needed:
 input_folder = '/Users/davidhull/Documents/PythonStuff/input_folder'
 output_folder = '/Users/davidhull/Documents/PythonStuff/output_2'
 
-## 3️⃣ Run the Script
+3️⃣ Run the Script
 python thumbnail_generator.py
 
 ## 🔹 How It Works
 
-## 1️⃣ Reads All MP4 Files
+1️⃣ Reads All MP4 Files
 The script scans the input_folder for .mp4 video files and processes them one by one.
 
-## 2️⃣ Extracts a Frame from Each Video
+2️⃣ Extracts a Frame from Each Video
 It captures a frame from the video and converts it to HSV format to detect the green screen color range.
 
-## 3️⃣ Removes Green Background & Crops the Image
+3️⃣ Removes Green Background & Crops the Image
 It creates a mask to remove the green areas.
 Converts the frame to BGRA (with transparency).
 Crops the bounding box of non-transparent pixels.
-## 4️⃣ Resizes the Image to a Square
+
+4️⃣ Resizes the Image to a Square
 Finds the largest dimension (width or height).
 Adds padding to ensure a perfect square.
-## 5️⃣ Saves the Final Image
+
+5️⃣ Saves the Final Image
 Saves the processed PNG file with transparency in the output_folder.
 
 ## 🔹 Example Output
