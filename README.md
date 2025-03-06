@@ -1,4 +1,4 @@
-# 📌 Automated Video Thumbnail Generator  
+# 📌 GymVisual Thumbnail Generator  
 
 ## 🔹 Overview  
 This Python script processes **MP4 video files**, extracts a frame, removes the **green screen background**, and resizes the image into a **square format** while maintaining transparency.  
