@@ -26,19 +26,25 @@ pip install opencv-python numpy
 
 1️⃣ Clone the Repository (or Save the Script)
 
+```bash
 git clone https://github.com/yourusername/video-thumbnail-generator.git
 cd video-thumbnail-generator
+```
 
 2️⃣ Set Up Input & Output Folders
 Place all MP4 videos in the input_folder.
 The script will save thumbnails in the output_folder.
 Modify the paths in the script if needed:
 
+```bash
 input_folder = '/Users/davidhull/Documents/PythonStuff/input_folder'
 output_folder = '/Users/davidhull/Documents/PythonStuff/output_2'
+```
 
 3️⃣ Run the Script
+```bash
 python thumbnail_generator.py
+```
 
 ## 🔹 How It Works
 
