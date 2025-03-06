@@ -30,7 +30,7 @@ pip install opencv-python numpy
 
 ```bash
 git clone https://github.com/dvhull/GymVisualThumbnail.git
-cd video-thumbnail-generator
+cd GymVisualThumbnail
 ```
 
 2️⃣ Set Up Input & Output Folders
