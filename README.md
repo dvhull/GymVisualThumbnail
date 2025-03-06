@@ -14,7 +14,9 @@ This Python script processes **MP4 video files**, extracts a frame, removes the 
 ### 📦 Dependencies  
 Before running the script, install the required Python libraries:  
 
+```bash
 pip install opencv-python numpy
+```
 
 ## 🖥️ System Requirements
 - Python 3.x
@@ -43,7 +45,7 @@ output_folder = '/Users/davidhull/Documents/PythonStuff/output_2'
 
 3️⃣ Run the Script
 ```bash
-python thumbnail_generator.py
+python3 thumbnail_generator.py
 ```
 
 ## 🔹 How It Works
