@@ -29,7 +29,7 @@ pip install opencv-python numpy
 1️⃣ Clone the Repository (or Save the Script)
 
 ```bash
-git clone https://github.com/yourusername/video-thumbnail-generator.git
+git clone https://github.com/dvhull/GymVisualThumbnail.git
 cd video-thumbnail-generator
 ```
 
