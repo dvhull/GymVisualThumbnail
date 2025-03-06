@@ -9,8 +9,6 @@ This Python script processes **MP4 video files**, extracts a frame, removes the 
 - ✅ Crops the **non-transparent area** and **resizes it into a square**.  
 - ✅ Saves the processed image as a **PNG file with transparency**.  
 
----
-
 ## 🔹 Requirements  
 
 ### 📦 Dependencies  
@@ -19,10 +17,10 @@ Before running the script, install the required Python libraries:
 pip install opencv-python numpy
 
 ## 🖥️ System Requirements
-Python 3.x
-OpenCV (cv2) for image processing
-NumPy (numpy) for numerical operations
-Works on Windows, macOS, and Linux
+- Python 3.x
+- OpenCV (cv2) for image processing
+- NumPy (numpy) for numerical operations
+- Works on Windows, macOS, and Linux
 
 ## 🔹 Installation & Setup
 
