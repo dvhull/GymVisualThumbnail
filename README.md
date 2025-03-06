@@ -36,7 +36,7 @@ cd GymVisualThumbnail
 2️⃣ Set Up Input & Output Folders
 Place all MP4 videos in the input_folder.
 The script will save thumbnails in the output_folder.
-Modify the paths in the script if needed:
+Modify the paths in the script to match there locations:
 
 ```bash
 input_folder = '/Users/davidhull/Documents/PythonStuff/input_folder'
